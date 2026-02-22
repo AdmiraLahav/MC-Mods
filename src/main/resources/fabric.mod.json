@@ -3,15 +3,16 @@
 	"id": "lav-learning",
 	"version": "${version}",
 	"name": "lav-learning",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is me learning to create mods",
 	"authors": [
-		"Me!"
+		"lav",
+		"AdmiraLahav"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://admiralahav.github.io/",
+		"sources": "https://github.com/AdmiraLahav/MC-Mods/"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/lav-learning/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +21,9 @@
 		],
 		"fabric-datagen": [
 			"lav.learning.LavlearningDataGenerator"
+		],
+		"client": [
+			"lav.learning"
 		]
 	},
 	"mixins": [

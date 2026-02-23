@@ -2,7 +2,7 @@ package lav.learning;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class LavLearningClient implements ClientModInitializer {
+public class LavlearningClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {

@@ -23,7 +23,7 @@
 			"lav.learning.LavlearningDataGenerator"
 		],
 		"client": [
-			"lav.learning"
+			"lav.learning.LavLearningClient"
 		]
 	},
 	"mixins": [

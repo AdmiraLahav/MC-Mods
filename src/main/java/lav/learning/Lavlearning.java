@@ -1,5 +1,6 @@
 package lav.learning;
 
+import lav.learning.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +20,10 @@ public class Lavlearning implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		//--Call RegistemMI from the "folder" ModItems I created
+		//--Which uses the logger
+		//--basically like FUNC_NAME(arg_xyz) in C#
+		ModItems.RegisterModItems();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

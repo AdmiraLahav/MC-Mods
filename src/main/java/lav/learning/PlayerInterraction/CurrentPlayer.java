@@ -8,7 +8,7 @@ public class CurrentPlayer {
         //--reset array
         for (int i = 0; i < cords.length; i++)
             cords[i] = 0;
-        
+
         return cords;
     }
 }

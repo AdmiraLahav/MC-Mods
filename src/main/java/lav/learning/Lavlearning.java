@@ -23,7 +23,7 @@ public class Lavlearning implements ModInitializer {
 		//--Call RegistemMI from the "folder" ModItems I created
 		//--Which uses the logger
 		//--basically like FUNC_NAME(arg_xyz) in C#
-		ModItems.RegisterModItems();
+		ModItems.registerModItems();
 		LOGGER.info("Hello Fabric world!");
 	}
 }

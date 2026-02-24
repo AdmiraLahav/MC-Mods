@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "lav-learning:item/custom_item_name"
+    "layer0": "lav-learning:item/dark_pearl"
   }
 }

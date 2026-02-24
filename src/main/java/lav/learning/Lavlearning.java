@@ -24,6 +24,6 @@ public class Lavlearning implements ModInitializer {
 		//--Which uses the logger
 		//--basically like FUNC_NAME(arg_xyz) in C#
 		ModItems.registerModItems();
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Finished onInitialize");
 	}
 }

@@ -24,8 +24,6 @@ public class ModItems {
         Registry.register(Registries.ITEM, itemKey,item);
         return item;
     }
-    //--in game name "item.lav-learning.dark_pearl"
-    //--fixed in game name to render correctly
 
     /*--DOES NOT WORK
     private static Item registerItem(String name, Item item){
